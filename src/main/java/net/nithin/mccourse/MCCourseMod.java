@@ -12,6 +12,7 @@ public class MCCourseMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		// Created a comment to test git.
 		LOGGER.info("Hello Fabric world!");
 	}
 }
