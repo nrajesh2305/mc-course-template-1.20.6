@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.nithin.mccourse.MCCourseMod;
+import net.nithin.mccourse.block.ModBlocks;
 
 public class ModItems {
 
@@ -27,6 +28,9 @@ public class ModItems {
     {
         entries.add(PINK_GARNET);
         entries.add(RAW_PINK_GARNET);
+
+        entries.add(ModBlocks.PINK_GARNET_BLOCK);
+        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
     }
 
     public static void registerModItems()
