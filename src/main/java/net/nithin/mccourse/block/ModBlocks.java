@@ -1,6 +1,7 @@
 package net.nithin.mccourse.block;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.block.MapColor;
@@ -29,6 +30,41 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL)
             ));
 
+    public static final Block DEEPSLATE_PINK_GARNET_ORE = registerBlock("deepslate_pink_garnet_ore",
+            new Block(Block.Settings.create()
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .strength(3.0f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+
+            ));
+
+    public static final Block NETHER_PINK_GARNET_ORE = registerBlock("nether_pink_garnet_ore",
+            new Block(Block.Settings.create()
+                    .mapColor(MapColor.DARK_RED)
+                    .strength(0.4f, 0.4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.NETHERRACK)
+
+            ));
+
+    public static final Block END_STONE_PINK_GARNET_ORE = registerBlock("end_stone_pink_garnet_ore",
+            new Block(Block.Settings.create()
+                    .mapColor(MapColor.PALE_YELLOW)
+                    .strength(3.0f, 9.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+
+            ));
+
+    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+            new Block(Block.Settings.create()
+                    .mapColor(MapColor.STONE_GRAY)
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+
+            ));
 
     private static Block registerBlock(String name, Block block)
     {
