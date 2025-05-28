@@ -36,7 +36,6 @@ public class ModBlocks {
                     .strength(3.0f, 6.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE)
-
             ));
 
     public static final Block NETHER_PINK_GARNET_ORE = registerBlock("nether_pink_garnet_ore",
@@ -47,7 +46,6 @@ public class ModBlocks {
                     .strength(0.4f, 0.4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.NETHERRACK)
-
             ));
 
     public static final Block END_STONE_PINK_GARNET_ORE = registerBlock("end_stone_pink_garnet_ore",
@@ -58,7 +56,6 @@ public class ModBlocks {
                     .strength(3.0f, 9.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)
-
             ));
 
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
@@ -69,7 +66,6 @@ public class ModBlocks {
                     .strength(1.5f, 6.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)
-
             ));
 
     private static Block registerBlock(String name, Block block)
